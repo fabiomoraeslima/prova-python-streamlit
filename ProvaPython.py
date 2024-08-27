@@ -429,7 +429,7 @@ def ProvaPython():
             acertos = st.session_state.pontos
             percentual_acerto = f"{acertos / pergunta * 100:.2f}%"
             
-            update_result(conn, username, pergunta, acertos, percentual_acerto)
+            #update_result(conn, username, pergunta, acertos, percentual_acerto)
 
             # Exibir resultado da prova
             st.balloons()  # Efeito visual (balões)
